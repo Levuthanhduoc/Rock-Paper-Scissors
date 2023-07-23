@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+#computer, #user {
+    height: 100px;
+    width: 100px;
+    border: black 1px solid;
+}
+.button-box {
+    display: flex;
+    flex-direction: column;
+}

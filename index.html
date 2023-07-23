@@ -2,11 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Rock paper sissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" href="style.css">
+    <title>Rock paper scissor</title>
 </head>
 <body>
-    
+    <p>Man vs machine RPS editon</p>
+    <div class="box">
+        <div id="computer">CP</div>
+        <div class="middle">VS</div>
+        <div id="user">PC</div>
+        <div class="button-box">
+            <button id="rock" type="button" onclick="startGame('rock')">ROCK</button>
+            <button id ="paper" type="button" onclick="startGame('paper')">PAPER</button>
+            <button id ="scissor" type="button" onclick="startGame('scissor')">SCISSOR</button>
+        </div>
+    </div>
+    <p id="result" style="width: 240px; text-align: center;">result here</p>
 </body>
+<script src="script.js"></script>
 </html>

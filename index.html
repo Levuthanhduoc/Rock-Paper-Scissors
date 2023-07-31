@@ -7,18 +7,25 @@
     <title>Rock paper scissor</title>
 </head>
 <body>
-    <p style="width: 240px; text-align: center;">Man vs machine RPS editon</p>
+    <p>Man vs machine RPS editon</p>
     <div class="box">
-        <div id="computer">CP</div>
-        <div class="middle">VS</div>
-        <div id="user">PC</div>
-        <div class="button-box">
-            <button id="rock" type="button" onclick="startGame('rock')">ROCK</button>
-            <button id ="paper" type="button" onclick="startGame('paper')">PAPER</button>
-            <button id ="scissor" type="button" onclick="startGame('scissor')">SCISSOR</button>
+        <div class="image_box">
+            <div class="image" id="computer">CP</div>
+            <div class="middle">VS</div>
+            <div class="image" id="user">PC</div>
         </div>
+        <div class="score_box">
+            <p id="score">Computer:0</p>
+            <p id="score">0:Player</p>
+        </div>
+        <p id="result">result here</p>
     </div>
-    <p id="result" style="width: 240px; text-align: center;">result here</p>
+    <button id="start">Start</button>
+    <div class="button-box">
+        <button id="key" type="button">ROCK</button>
+        <button id ="key" type="button">PAPER</button>
+        <button id ="key" type="button">SCISSOR</button>
+    </div>
 </body>
-<script src="script.js"></script>
+<script src="script.js" defer></script>
 </html>

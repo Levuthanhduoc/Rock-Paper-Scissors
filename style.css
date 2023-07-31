@@ -1,15 +1,46 @@
-.box {
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin-bottom: 10px;
+}
+.image_box {
     display: flex;
     flex-direction: row;
     gap: 10px;
     align-items: center;
 }
-#computer, #user {
+.image {
     height: 100px;
     width: 100px;
     border: black 1px solid;
 }
 .button-box {
     display: flex;
-    flex-direction: column;
+    margin-top: 10px;
+    gap: 5px;
+}
+p {
+    width: 240px; 
+    text-align: center;
+}
+.score_box{
+    height: 20px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+}
+.fading {
+    opacity: 50%;
+}
+.image{
+    transform: all 0.25 ease;
+}
+.scaleUP{
+    transition: scale(1.1);
+    border: solid black 5px;
+    box-shadow: 5px 10px #888888;
 }
